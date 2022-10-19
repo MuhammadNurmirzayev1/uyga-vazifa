@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    display: flex;
+    border: 1px solid black;    
+    gap: 1rem;
+    padding: 3px;
+    flex-direction: column;
+    width: 500px;
+    
+}
+.header{
+    display: flex;
+    padding: 1rem;
+    background: yellow;
+}
+.footer{
+    display: flex;
+gap: 1rem;
+}
+.navbar{
+    height: 80px;
+    width: 100px;
+    background-color: yellow;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+.article{
+    background: yellow;
+    height: 25px;
+    flex-grow:1;
+    width: 283px;
+}
+.ads{
+    background: yellow;
+    height: 25px;
+    width: 50px;
+}
+.foot{
+    width:420px;
+    height: 45px;
+    background-color: yellow;
+}
